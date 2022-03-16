@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:skia ="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             xmlns:local ="clr-namespace:ShootingMobile"
+             x:Class="ShootingMobile.MainPage"
+             Title="Home">
+    <AbsoluteLayout Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+
+        <Grid AbsoluteLayout.LayoutBounds="0,1,1,1" AbsoluteLayout.LayoutFlags="All">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <skia:SKCanvasView x:Name="canvasView"
+                               Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                               PaintSurface="canvasView_PaintSurface"/>
+            <Button Text="Prepare"
+                    BackgroundColor="Green"
+                Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1"
+                Margin="0, 10"
+                    Clicked="Button_Clicked"/>
+            <Button Text="Cancel"
+                    BackgroundColor="Red"
+                Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1"
+                Margin="0, 10"
+                    Clicked="Button_Clicked_1"/>
+        </Grid>
+
+        <ContentView x:Name="popupLoadingView" Padding="10, 0" IsVisible="false" 
+                     AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1" AbsoluteLayout.LayoutFlags="PositionProportional">
+            <StackLayout>
+                <ActivityIndicator  x:Name="activityIndicator" Margin="0,50,0,0"
+                                    VerticalOptions="Center" HorizontalOptions="Center" 
+                                    Color="Blue" IsRunning="True" 
+                                    WidthRequest="100" HeightRequest="100"/>
+            </StackLayout>
+        </ContentView>
+
+
+
+
+    </AbsoluteLayout>
+  
+
+</ContentPage>

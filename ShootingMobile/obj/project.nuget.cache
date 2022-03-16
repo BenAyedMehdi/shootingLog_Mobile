@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "pvF+rXwtOEldhvwk1nJ+t405NbNGQlzuOK0mEmpAuCLgihXz/v8U5U2Rm86a/dAAB1gTJlw5WxDiSLcWLJJorA==",
+  "success": true,
+  "projectFilePath": "E:\\Work\\INTERNSHIP\\2\\new\\ShootingMobile\\ShootingMobile\\ShootingMobile\\ShootingMobile.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mehdi\\.nuget\\packages\\devexpress.xamarinforms.charts\\21.1.6\\devexpress.xamarinforms.charts.21.1.6.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\devexpress.xamarinforms.core\\21.1.6\\devexpress.xamarinforms.core.21.1.6.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\microcharts\\0.9.5.9\\microcharts.0.9.5.9.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\microcharts.forms\\0.9.5.9\\microcharts.forms.0.9.5.9.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\skiasharp\\2.80.3\\skiasharp.2.80.3.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\skiasharp.views.forms\\2.80.3\\skiasharp.views.forms.2.80.3.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\syncfusion.licensing\\19.3.0.45\\syncfusion.licensing.19.3.0.45.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\syncfusion.xamarin.core\\19.3.0.45\\syncfusion.xamarin.core.19.3.0.45.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\syncfusion.xamarin.sfchart\\19.3.0.45\\syncfusion.xamarin.sfchart.19.3.0.45.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Mehdi\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

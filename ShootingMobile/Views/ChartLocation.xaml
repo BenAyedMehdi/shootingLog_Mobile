@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             xmlns:local="clr-namespace:ShootingMobile.Views"
+             x:Class="ShootingMobile.Views.ChartLocation">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <chart:SfChart x:Name="chart" HeightRequest="500" WidthRequest="500"
+                       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <chart:SfChart.Title>
+                <chart:ChartTitle Text="Coardinates"/>
+            </chart:SfChart.Title>
+
+        </chart:SfChart>
+
+        <Button Text="Regression"
+                x:Name="regressionButton"
+                BackgroundColor="Green"
+                Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1"
+                Margin="0, 10"
+                Clicked="Button_Clicked"/>
+        <Button Text="New"
+                Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1"
+                Margin="0, 10"
+                Clicked="Button_Clicked_1"/>
+    </Grid>
+    
+</ContentPage>
